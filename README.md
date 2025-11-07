@@ -39,7 +39,9 @@ The goal is to identify and visualize **customer churn patterns**, predict poten
 - Displays overall churn metrics such as total customers, churn count, churn rate, and new joiners  
 - Visualizes churn patterns by **gender**, **age group**, **payment method**, and **contract type**  
 - Includes geographic churn rate by **state** and service-based churn insights (e.g., Internet type, plan type)  
-- Helps identify **key churn drivers** and retention opportunities  
+- Helps identify **key churn drivers** and retention opportunities
+
+The summary dashboard shows a 27% churn rate out of 6,418 customers, with churn concentrated in month-to-month contracts, fiber-internet users, and customers aged 45–60. States like California and Oregon show the highest churn levels, and payment methods such as bank withdrawal and credit card also carry higher churn. Service-related churn is especially linked to Internet Service and add-on features like Device Protection and Multiple Lines, highlighting contract type and service experience as the main churn drivers.
 
 ---
 
@@ -50,7 +52,9 @@ The goal is to identify and visualize **customer churn patterns**, predict poten
 - Presents a detailed profile of **predicted churners** using the Random Forest model  
 - Segments churners by **state**, **tenure**, **contract**, **payment method**, and **age group**  
 - Displays total count of predicted churners and allows filtering to identify **high-risk customers**  
-- Enables data-driven strategies for **targeted retention campaigns**  
+- Enables data-driven strategies for **targeted retention campaigns**
+
+The model predicts 378 churners, mostly female, mid-aged, and mid-tenure customers, with credit card users forming the largest group. States like Maharashtra and Karnataka show the highest churn counts, and predicted churners generate roughly $214M in revenue, making them a high-value at-risk segment worth prioritizing for retention.
 
 ## 💡 Key Skills Demonstrated
 - Data preprocessing and transformation using **SQL Server**
